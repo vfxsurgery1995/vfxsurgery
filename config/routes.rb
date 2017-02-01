@@ -1,10 +1,13 @@
 Rails.application.routes.draw do
   
   
+  devise_for :users
   # define root url
   root 'pages#index'
   
   # define routes for pages
+  
+  get '/img' => 'pages#index'
 
   get '/profile' => 'pages#profile'
 

@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+# Adding the Device gem for authentication and user accounts.
+gem 'devise'
 # Twitter Boostrap sass assests
 gem 'bootstrap-sass', '~> 3.3.6'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
