@@ -1,4 +1,15 @@
 Rails.application.routes.draw do
+  
+  
+  # define root url
+  root 'pages#index'
+  
+  # define routes for pages
+
+  get '/profile' => 'pages#profile'
+
+  get '/project' => 'pages#project'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

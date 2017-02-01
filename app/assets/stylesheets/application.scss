@@ -10,6 +10,15 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
- *= require_tree .
- *= require_self
  */
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+html body { 
+    background: linear-gradient(135deg, #172a74, #21a9af);
+    background-repeat: no-repeat;
+    background-size: inherit;
+    height:cover;
+          }
+          
+          
