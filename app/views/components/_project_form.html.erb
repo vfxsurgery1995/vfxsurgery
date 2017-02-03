@@ -1,0 +1,12 @@
+<%= form_for(@newProject) do |f| %>
+
+ <center>
+  <div class="field">
+    <%= f.text_field :description, autofocus: true %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit "Create a Project" %>
+  </div>
+ <center>  
+<% end %>

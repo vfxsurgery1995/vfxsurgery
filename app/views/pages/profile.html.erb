@@ -9,7 +9,7 @@
     </div>
     <div class= "col-xs-4">
         <div class="panel panel-default">
-         <div class="panel-heading">User Stats</div>
+         <div class="panel-heading">Messages</div>
           <div class="panel-body">
             <p></p>
           </div>
@@ -17,10 +17,19 @@
     </div>
     <div class= "col-xs-8">
         <div class="panel panel-default">
-         <div class="panel-heading">Project Manager</div>
-          <div class="panel-body">
-            <p></p>  
-          </div>
+         <div class= "panel-heading">Project Manager</div>
+         <div class= "panel-body">
+           <%= render '/components/project_form' %>     
+           <% for @p in @projects %>
+             <div class= "col-xs-8-2">
+              <div class="panel panel-default">
+               <div class="panel-body">
+               <p><%= @p.description %></p>  
+               </div>
+              </div>
+             </div>
+           <% end %>
+         </div>
         </div>
     </div>
 </div>
