@@ -8,7 +8,7 @@ Rails.application.routes.draw do
   
   # define routes for pages
   
-  get '/img' => 'pages#index'
+  get '/svg' => 'pages#index'
 
   get '/user/:id' => 'pages#profile'
 

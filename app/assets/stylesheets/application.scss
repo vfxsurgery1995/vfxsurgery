@@ -14,11 +14,65 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-html body { 
+body {
+    background: linear-gradient(135deg, #124f87, #13c7cf) no-repeat center center fixed;
+    line-height: 1;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: sans-serif;
+    color: black;
     
-    background-repeat: no-repeat;
-    background-size: inherit;
-    height:cover;
-          }
-          
-          
+}
+.navbar {
+    background: none;
+    border: none;
+    color: white;
+   
+}
+
+.btn {
+    background: none;
+    border-radius: 20px;
+    border-color: white;
+    color: white;
+    border-width: thin;
+}    
+    
+.btn.btn-custom {
+    color: white;
+    background: none;
+    border-radius: 20px;
+    border-color: white;
+}
+        
+.nav.navbar-nav li a{
+    color: white;
+    border-color: white;
+    border-radius: 5px;
+    background: none;
+    
+}          
+
+.navbar-brand {
+    height: 70px;
+    margin-top: -12px;
+    margin-left: 5px;
+}
+
+.dropdown-toggle li a {
+    background: none;
+}
+
+
+.h2 {
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    text-shadow: 0 -1px rgba(black, .4);
+  }
+  
+  
