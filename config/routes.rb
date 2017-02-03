@@ -9,9 +9,9 @@ Rails.application.routes.draw do
   
   get '/img' => 'pages#index'
 
-  get '/profile' => 'pages#profile'
+  get '/user/:id' => 'pages#profile'
 
-  get '/project' => 'pages#project'
+  get '/username/:id' => 'pages#project'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
